@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Gowun+Dodum&family=Merriweather:ital,wght@1,700&family=Noto+Serif+KR:wght@200&family=Source+Sans+Pro:wght@300&display=swap");
+/*
+  글꼴
+  font-family: 'Anek Devanagari', sans-serif; -> mainbox2 designers, content writers...
+  font-family: 'Gowun Dodum', sans-serif; -> 한글
+  font-family: 'Merriweather', serif; -> 
+  font-family: 'Noto Serif KR', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+ */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow-x: auto;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+/* WH */
+.navbar {
+  box-sizing: border-box;
+  background: #eff1f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #a0138e;
+  width: 100%;
+  height: 50px;
+}
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+/* HJ */
+.mainbox1 {
+  min-width: 980px;
+  height: auto;
+}
+
+/* YW */
+.mainbox2 {
+  min-width: 980px;
+  background-color: rgb(252, 211, 7);
+}
+.mainbox3 {
+  min-width: 980px;
+  height: auto;
+}
+
+/* SY */
+.mainbox4 {
+  min-width: 980px;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  padding: 50px;
+  display: flex;
+  font-family: "Gowun Dodum", sans-serif;
+}
+.mainbox4_center {
+  margin: 0px auto;
+}
+.mainbox4_text {
+  margin-bottom: 30px;
+}
+.mainbox4_text span {
+  font-family: "Merriweather", serif;
+  font-size: 35px;
+  margin-left: 10px;
+}
+.mainbox4_wrap {
+  overflow: hidden;
+}
+.wrap1 {
+  float: left;
+  margin-right: 100px;
+}
+.wrap2 {
+  float: right;
+}
+
+/* WH */
