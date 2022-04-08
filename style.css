@@ -10,6 +10,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-size: 16px;
 }
 body {
   overflow-x: auto;
@@ -66,18 +67,91 @@ body {
 }
 .mainbox4_text span {
   font-family: "Merriweather", serif;
-  font-size: 35px;
+  font-size: 55px;
   margin-left: 10px;
+}
+.mainbox4_text div {
+  font-size: 20px;
+  margin-top: 15px;
 }
 .mainbox4_wrap {
   overflow: hidden;
+  margin-top: 20px;
+  padding: 20px 0px;
 }
 .wrap1 {
+  font-size: 18px;
   float: left;
   margin-right: 100px;
 }
+.wrap1 img {
+  margin-right: 15px;
+}
+.wrap1_address {
+  margin-bottom: 5px;
+}
 .wrap2 {
   float: right;
+}
+.wrap2 hr {
+  background-color: white;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+.wrap2_text {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.form_wrap {
+  overflow: hidden;
+}
+.form_wrap1 {
+  float: left;
+}
+.form_wrap2 {
+  float: right;
+}
+form * {
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+form input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  outline: none;
+  border: 2.5px solid #fcd307;
+}
+.form_wrap input {
+  padding: 5px 3px 5px 24px;
+  margin-bottom: 5px;
+}
+.form_wrap textarea {
+  width: 200px;
+  height: 95px;
+  margin-left: 10px;
+  padding: 10px;
+}
+.form_button {
+  margin-top: 5px;
+  text-align: right;
+}
+.form_button button {
+  width: 100px;
+  height: 30px;
+  font-family: "Gowun Dodum", sans-serif;
+  text-align: center;
+  border: none;
+  background-color: #fcd307;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.form_button button:hover {
+  background-color: white;
 }
 
 /* WH */
