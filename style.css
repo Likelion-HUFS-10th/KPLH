@@ -50,78 +50,83 @@ body {
   display: flex;
 }
 .mainbox2 img {
-    margin-top:17px;
+  margin-top: 17px;
 }
 .mainbox2-center {
-    margin: 0px auto;
+  margin: 0px auto;
 }
-
-.designer, .contents-writer, .ad-dir, .music-pd {
-    text-align: center;
-    width: 102px;
-    height: 102px;
-    border-radius: 70%;
-    background-color: white; 
-    margin-right: 8vw;
-    float: left;
-    text-align: center;
+.designer,
+.contents-writer,
+.ad-dir,
+.music-pd {
+  float: left;
+  text-align: center;
+  width: 200px;
+  height: 200px;
 }
 .music-pd {
-    margin-right: 0px;
+  margin-right: 0px;
 }
 .mainbox2-circle {
-    width: 102px;
-    height: 102px;
+  width: 102px;
+  height: 102px;
+  border-radius: 70%;
+  background-color: white;
+  margin: 0px auto;
 }
-.mainbox2-text { 
-    margin-top: 20px;
-    font-size: 15px;
-    font-weight: 550;
-    letter-spacing: 2.1px;
-    white-space: nowrap;
+.mainbox2-text {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Anek Devanagari", sans-serif;
+  letter-spacing: 2.1px;
+  white-space: nowrap;
 }
-
 .mainbox3 {
   min-width: 980px;
   height: auto;
   background-color: white;
   color: black;
   padding: 50px;
-  font-family: 'Gowun Dodum', sans-serif;
+  font-family: "Gowun Dodum", sans-serif;
   display: flex;
 }
 .mainbox3-center {
-    margin: 0px auto;
-    width: 920px;
+  margin: 0px auto;
+  width: 920px;
 }
 .mainbox3-head {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 .mainbox3-head span {
-    font-family: 'Merriweather', serif;
-    font-size: 35px;
-    margin-left: 10px;
+  font-family: "Merriweather", serif;
+  font-size: 35px;
+  margin-left: 10px;
 }
 .kor-head {
-    margin-left: 44px;
-    font-size: 25px;
+  margin-left: 44px;
+  font-size: 25px;
 }
-.ceo-1, .ceo-2, .consult-1, .consult-2 {
-    text-align: center;
-    margin-right: 15px;
-    float:left;
-    color: rgb(133,133,133);
+.ceo-1,
+.ceo-2,
+.consult-1,
+.consult-2 {
+  text-align: center;
+  margin-right: 15px;
+  float: left;
+  color: rgb(133, 133, 133);
 }
 .mainbox3-wrap2-1 {
-    float: left;
-    width: 450px;
-    margin-top: 40px;
+  float: left;
+  width: 450px;
+  margin-top: 40px;
 }
 .mainbox3-wrap2-2 {
-    float: right;
-    width: 450px;
-    margin-top: 40px;
+  float: right;
+  width: 450px;
+  margin-top: 40px;
 }
+
 /* SY */
 .mainbox4 {
   min-width: 980px;
