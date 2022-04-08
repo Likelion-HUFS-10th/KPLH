@@ -36,9 +36,81 @@ body {
 /* HJ */
 .mainbox1 {
   min-width: 980px;
-  height: auto;
 }
-
+.backgrond{
+  position: relative;
+}
+.content1{
+  margin-left: 0px;
+  font-family: "Gowun Dodum", sans-serif;
+  min-width: 980px;
+  position: absolute;
+  color: white;
+  top:180px;
+  left:390px;
+  font-size: 65px;
+}
+.content2{
+  font-family: "Gowun Dodum", sans-serif;
+  position: absolute;
+  color: white;
+  top: 240px;;
+  left:390px;
+  font-size: 65px;
+}
+.content3{
+  font-family: "Gowun Dodum", sans-serif;
+  min-width: 980px;
+  position: absolute;
+  color: white;
+  top: 310px;;
+  left:390px;
+  font-size: 65px;
+}
+.content4{
+  font-family: "Gowun Dodum", sans-serif;
+  min-width: 980px;
+  position: absolute;
+  color: white;
+  top: 373px;;
+  left:390px;
+  font-size: 65px;
+}
+.content5{
+  font-family: "Gowun Dodum", sans-serif;
+  min-width: 980px;
+  position: absolute;
+  color: white;
+  top: 510px;
+  left:390px;
+  font-size: 30px;
+}
+.button1{
+  font-family: "Gowun Dodum", sans-serif;
+  position: absolute;
+  border: 2.5px solid white;
+  padding: 10px;
+  height: 20px;
+  width: 130px;
+  top: 580px;
+  left:390px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+.button2{
+  font-family: "Gowun Dodum", sans-serif;
+  position: absolute;
+  border: 2.5px solid white;
+  padding: 10px;
+  height: 20px;
+  width: 130px;
+  top: 580px;
+  left:580px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
 /* YW */
 .mainbox2 {
   min-width: 980px;
