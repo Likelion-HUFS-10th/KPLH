@@ -24,58 +24,72 @@
         <div class="mainbox4">
           <div class="mainbox4_center">
             <div class="mainbox4_text">
-              <img src="./img/whitecross.png" width="34px" height="34px" />
+              <img src="./img/whitecross.png" width="45px" height="45px" />
               <span>CONTACT</span>
               <div>궁금한 내용은 언제든지 문의하세요!</div>
             </div>
             <div class="mainbox4_wrap">
               <div class="wrap1">
-                <div class="wrap1_mail">info@mysite.com</div>
-                <div class="wrap1_call">02-000-0000</div>
-                <div class="wrap1_address">
-                  서울특별시 종로구 안국동 00-00, 110-240
+                <div class="wrap1_mail">
+                  <img src="./img/mail.png" width="25px" height="25px" />
+                  info@mysite.com
+                </div>
+                <div class="wrap1_call">
+                  <img src="./img/phone.png" width="25px" height="30px" />
+                  02-000-0000
                 </div>
               </div>
               <div class="wrap2">
                 <div class="wrap2_text">
                   크리에이티브 코너와 함께<br />끼와 재능을 펼쳐보세요!
                 </div>
-                <div class="form">
+                <div class="form_wrap">
                   <form>
-                    <input
-                      type="text"
-                      placeholder="이름"
-                      class="form_name"
-                    /><br />
-                    <input
-                      type="email"
-                      placeholder="이메일"
-                      class="form_email"
-                    /><br />
-                    <input
-                      type="number"
-                      placeholder="전화번호"
-                      class="form_phone"
-                    />
-                    <textarea placeholder="메시지를 입력하세요"></textarea
-                    ><br />
-                    <button type="button" class="wrap2_form_button">
-                      제출
-                    </button>
+                    <div class="form_wrap1">
+                      <input
+                        type="text"
+                        placeholder="이름"
+                        class="form_name"
+                      /><br />
+                      <input
+                        type="email"
+                        placeholder="이메일"
+                        class="form_email"
+                        required
+                      /><br />
+                      <input
+                        type="text"
+                        placeholder="전화번호"
+                        class="form_phone"
+                      />
+                    </div>
+                    <div class="form_wrap2">
+                      <textarea placeholder="메시지를 입력하세요."></textarea>
+                    </div>
                   </form>
+                </div>
+                <div class="form_button">
+                  <button type="button" name="제출">
+                    제출
+                  </button>
                 </div>
               </div>
             </div>
-            <div class="mainbox4_wrap">
-              <div class="wrap1">
-                <img src="./img/map.png" width="300px" height="300px" />
+          <div class="mainbox4_wrap">
+            <div class="wrap1">
+              <div class="wrap1_address">
+                서울특별시 종로구 안국동 00-00, 110-240
               </div>
-              <div class="wrap2">
-                <div class="wrap2_text">
-                  크리에이티브 코너의<br />놀라운 인재들을 만나보세요!
-                </div>
-                <div class="form">
-                  <form>
+              <img src="./img/map.png" width="300px" height="300px" />
+            </div>
+            <div class="wrap2">
+              <hr />
+              <div class="wrap2_text">
+                크리에이티브 코너의<br />놀라운 인재들을 만나보세요!
+              </div>
+              <div class="form_wrap">
+                <form>
+                  <div class="form_wrap1">
                     <input
                       type="text"
                       placeholder="이름"
@@ -85,19 +99,23 @@
                       type="email"
                       placeholder="이메일"
                       class="form_email"
+                      required
                     /><br />
                     <input
-                      type="number"
+                      type="text"
                       placeholder="전화번호"
                       class="form_phone"
                     />
-                    <textarea placeholder="메시지를 입력하세요"></textarea
-                    ><br />
-                    <button type="button" class="wrap2_form_button">
-                      제출
-                    </button>
-                  </form>
-                </div>
+                  </div>
+                  <div class="form_wrap2">
+                    <textarea placeholder="메시지를 입력하세요."></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="form_button">
+                <button type="button" name="제출">
+                  제출
+                </button>
               </div>
             </div>
           </div>
