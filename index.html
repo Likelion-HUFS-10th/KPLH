@@ -15,7 +15,7 @@
           This site was designed with the&nbsp
           <img src="./img/WIX_icon.png" width="30px" height="16px" />
           .com website builder. Create your website today.&nbsp
-          <button class="btnstart">Start Now</button>
+          <button type="button" class="btnstart">Start Now</button>
         </div>
         <div class="banner">
           <div class="banner-center">
@@ -25,8 +25,8 @@
             </div>
             <div class="menu">
               <a href="#" style="color: rgb(252, 211, 7)">메인</a>
-              <a href="#" style="color: black">인재찾기</a>
-              <a href="#" style="color: black">일자리찾기</a>
+              <a href="#" class="menu_hover">인재찾기</a>
+              <a href="#" class="menu_hover">일자리찾기</a>
               <img src="./img/facebook.png" width="17px" height="17px" />
               <img src="./img/twitter.png" width="17px" height="17px" />
               <img src="./img/instagram.png" width="17px" height="17px" />
@@ -37,34 +37,19 @@
       <main>
         <!-- HJ -->
         <div class="mainbox1">
-          <div class="background">
-            <img
-              src="./img/a38016_9bd9d7a9ccb44689ba0771fd8e44d08e.webp"
-              style="max-width: 100%; height: auto"
-            />
-            <div class="cross">
-              <img
-                src="img\taxi-361.png"
-                style="max-width: 45px; height: 45px"
-              />
-            </div>
+          <div class="mainbox1_container">
             <div class="content1">
-              <span>CREATIVE</span>
+              CREATIVE<br />CORNER
+              <img src="img\taxi-361.png" width="45px" height="45px" />
             </div>
-            <div class="content2">
-              <span>CORNER</span>
-            </div>
+            <div class="content2">인재와 기회가 <br />당신을 기다립니다!!</div>
             <div class="content3">
-              <span>인재와 기회가</span>
-            </div>
-            <div class="content4">
-              <span>당신을 기다립니다!!</span>
-            </div>
-            <div class="content5">
               <span>크리에이티브 코너와 함께 미래를 만들어보세요!</span>
             </div>
-            <div class="button1">인재 찾기</div>
-            <div class="button2">일자리 찾기</div>
+            <div class="buttonbox">
+              <button type="button" class="button1">인재 찾기</button>
+              <button type="button" class="button1">일자리 찾기</button>
+            </div>
           </div>
         </div>
         <!-- YW -->
@@ -137,7 +122,7 @@
                   <img src="./img/guy1.png" width="215px" height="201px" />
                 </div>
                 <div class="wrap1-text">
-                  <p>,</p>
+                  <p class="wrap1-name">김용우</p>
                   <p>공동대표</p>
                 </div>
               </div>
@@ -146,7 +131,7 @@
                   <img src="./img/lady1.png" width="215px" height="201px" />
                 </div>
                 <div class="wrap1-text">
-                  <p>,</p>
+                  <p class="wrap1-name">박소연</p>
                   <p>공동대표</p>
                 </div>
               </div>
@@ -155,7 +140,7 @@
                   <img src="./img/guy2.png" width="215px" height="201px" />
                 </div>
                 <div class="wrap1-text">
-                  <p>,</p>
+                  <p class="wrap1-name">이현제</p>
                   <p>인재 컨설팅</p>
                 </div>
               </div>
@@ -164,7 +149,7 @@
                   <img src="./img/lady2.png" width="215px" height="201px" />
                 </div>
                 <div class="wrap1-text">
-                  <p>,</p>
+                  <p class="wrap1-name">황은해</p>
                   <p>일자리 컨설팅</p>
                 </div>
               </div>
@@ -179,12 +164,13 @@
               무궁무진합니다.
             </div>
             <p class="mainbox3-wrap2-2">
-              Wix는 사용자의 선호 및 필요에 따라 최고 수준의 홈페이지를 제작할수
-              있는 모든 솔루션을 갖추고 있습니다.홈페이지 템플릿 컬렉션에서
-              마음에 드는 디자인을 선택한후, 원하는대로 편집해 나만의 홈페이지를
-              완성해 보세요! 도움말: 텍스트를 입력한후에는 틀린 철자나 어색한
-              띄어쓰기가 없는지 확인해보세요. 작은 실수 하나가 홈페이지 및 전체
-              비즈니스에 대한 신뢰감을 떨어뜨릴수 있습니다.
+              <strong>Wix</strong>는 사용자의 선호 및 필요에 따라 최고 수준의
+              홈페이지를 제작할수 있는 모든 솔루션을 갖추고 있습니다.홈페이지
+              템플릿 컬렉션에서 마음에 드는 디자인을 선택한후, 원하는대로 편집해
+              나만의 홈페이지를 완성해 보세요! 도움말: 텍스트를 입력한후에는
+              틀린 철자나 어색한 띄어쓰기가 없는지 확인해보세요. 작은 실수
+              하나가 홈페이지 및 전체 비즈니스에 대한 신뢰감을 떨어뜨릴수
+              있습니다.
             </p>
           </div>
         </div>
@@ -288,14 +274,14 @@
       </main>
       <!-- WH -->
       <footer>
-        <div id="footer">
-          <div id="footer-center">
+        <div class="footer">
+          <div class="footer-center">
             <div class="copyright">
-              © 2023 WIX로 제작된 본 홈페이지에 대한 모든 권리는 OOOO(사업체명)에
-              귀속됩니다.
+              © 2023 WIX로 제작된 본 홈페이지에 대한 모든 권리는
+              OOOO(사업체명)에 귀속됩니다.
             </div>
             <div class="info">
-              <div class="info-adress">
+              <div class="info-address">
                 info@mysite.com | 서울특별시 종로구 안국동 OO-OO, 110-240
               </div>
               <div class="info-img">
