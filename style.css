@@ -101,13 +101,15 @@ body {
   height: auto;
   background-image: url("./img/a38016_9bd9d7a9ccb44689ba0771fd8e44d08e.webp");
   background-size: cover;
+  display: flex;
 }
 .mainbox1_container {
-  width: 610px;
+  width: 800px;
   height: 100%;
   color: white;
   padding: 70px;
-  margin-left: 150px;
+  /* margin-left: 150px; */
+  margin: 0px auto;
 }
 .content1 {
   font-family: "Noto Serif KR", serif;
